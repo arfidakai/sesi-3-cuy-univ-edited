@@ -1,0 +1,23 @@
+.tanpa-bootstrap {
+    border: none;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 3em;
+    background-color:bisque;
+    color: black;
+    cursor: pointer;
+}
+
+.tanpa-bootstrap:hover {
+    background-color:brown;
+    color:black;
+    transform: rotateY(2);
+    transition: all .4s;
+}
+.carousel-item img {
+    width: 80%;
+    max-width: 700px; /* Set a maximum width */
+    max-height: 500px; /* Set a maximum height */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    margin: auto;
+}
